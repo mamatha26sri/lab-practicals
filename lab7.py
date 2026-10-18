@@ -10,6 +10,7 @@ def divide_numbers(a, b):
     finally:
         print("Execution of divide_numbers() is complete.\n")
 
+
 def main():
     try:
         x = float(input("Enter the numerator: "))
@@ -18,4 +19,6 @@ def main():
     except ValueError:
         print("Error: Invalid input. Please enter numeric values.")
 
+
 if __name__ == '__main__':
+    main()
